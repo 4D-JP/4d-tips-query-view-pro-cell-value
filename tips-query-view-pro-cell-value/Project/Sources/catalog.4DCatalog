@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="query-view-pro-cell-value" uuid="1D9086695A7D444D99DA94DC1842E642" collation_locale="ja">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="main" uuid="FB5DFD75702A4A6C8273C9E8590AF93E" id="1">
+		<field name="ID" uuid="09DC3AD660364749ACA0441B642C8435" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="obdata1" uuid="6C7268D0EB264FC1BB7106A04C668EC6" type="21" blob_switch_size="2147483647" never_null="true" id="2"/>
+		<primary_key field_name="ID" field_uuid="09DC3AD660364749ACA0441B642C8435"/>
+		<table_extra trigger_insert="true" trigger_update="true">
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="299.828125" top="234.26171875" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" uuid="5E2C4E253DA24CD88C6768A2ADA093CB" type="3">
+		<field_ref uuid="6C7268D0EB264FC1BB7106A04C668EC6" name="obdata1">
+			<table_ref uuid="FB5DFD75702A4A6C8273C9E8590AF93E" name="main"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="FF571DFC5EF348B3AADE09060A65BA57" type="7">
+		<field_ref uuid="09DC3AD660364749ACA0441B642C8435" name="ID">
+			<table_ref uuid="FB5DFD75702A4A6C8273C9E8590AF93E" name="main"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:68.1.0, alternate=search" __keywordBuildingHash="mecab:0.996;sys.dic:102;">
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>

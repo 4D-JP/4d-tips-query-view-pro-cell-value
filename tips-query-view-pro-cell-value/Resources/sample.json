@@ -1,0 +1,82 @@
+{
+"version": 1,
+"dateCreation": "2022-02-02T02:02:47Z",
+"dateModified": "2022-02-02T02:38:16Z",
+"spreadJS": {
+"version": "14.0.4",
+"customList": [],
+"sheets": {
+"シート1": {
+"name": "シート1",
+"isSelected": true,
+"rowCount": 1000,
+"columnCount": 100,
+"activeRow": 11,
+"activeCol": 2,
+"theme": "Office",
+"data": {
+"dataTable": {
+"10": {
+"2": {
+"value": "aaa"
+}
+}
+},
+"defaultDataNode": {
+"style": {
+"themeFont": "Body"
+}
+}
+},
+"rowHeaderData": {
+"defaultDataNode": {
+"style": {
+"themeFont": "Body"
+}
+}
+},
+"colHeaderData": {
+"defaultDataNode": {
+"style": {
+"themeFont": "Body"
+}
+}
+},
+"rowHeaderColInfos": [
+{
+"size": 60
+}
+],
+"leftCellIndex": 0,
+"topCellIndex": 0,
+"selections": {
+"0": {
+"row": 11,
+"rowCount": 1,
+"col": 2,
+"colCount": 1
+},
+"length": 1
+},
+"rowOutlines": {
+"items": []
+},
+"columnOutlines": {
+"items": []
+},
+"cellStates": {},
+"outlineColumnOptions": {},
+"autoMergeRangeInfos": [],
+"printInfo": {
+"paperSize": {
+"width": 850,
+"height": 1100,
+"kind": 1
+}
+},
+"index": 0
+}
+},
+"pivotCaches": {}
+}
+}
