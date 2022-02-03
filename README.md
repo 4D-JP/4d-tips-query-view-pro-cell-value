@@ -1,5 +1,5 @@
 ![version](https://img.shields.io/badge/version-19%2B-5682DF)
-[![license](https://img.shields.io/github/license/miyako/4d-tips-query-view-pro-cell-value)](LICENSE)
+[![license](https://img.shields.io/github/license/4D-JP/4d-tips-query-view-pro-cell-value)](LICENSE)
 
 # 4d-tips-query-view-pro-cell-value
 View Proのセル値ですばやく検索するには
